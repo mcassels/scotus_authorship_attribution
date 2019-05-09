@@ -4,7 +4,6 @@ import re
 import time
 import nltk
 #had to make this change https://github.com/nltk/nltk/pull/2186/files#diff-34022dd7c15afeba0f26319ac39f349dR180
-from nltk.corpus import stopwords
 
 start = time.time()
 
