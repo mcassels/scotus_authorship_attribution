@@ -41,7 +41,7 @@ for index, row in df.iterrows():
     new_df.loc[index]['text'] = new_text
 
 
-new_df.to_csv("removed_ne_and_numbers.csv", index=False)
+new_df.to_csv("tokens_numbers_ne_removed.csv", index=False)
 
 
 end = time.time()
