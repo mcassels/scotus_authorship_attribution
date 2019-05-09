@@ -20,7 +20,7 @@ for index, row in df.iterrows():
     new_df.loc[index]['text'] = " ".join(word for sentence in initial_words for word in sentence if no_numbers.match(word))
 
 
-new_df.to_csv("csv_files/removed_numbers_apr4.csv", index=False)
+new_df.to_csv("csv_files/tokens_numbers_removed.csv", index=False)
 
 
 end = time.time()
